@@ -1,0 +1,47 @@
+.App{
+  background:linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  height: 100vh;
+  h1, h2 {
+    margin: 10px;
+    text-align: center;
+  }
+  .markdown-app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 1px solid black;
+    text-align: initial;
+    padding: 0px 20px;
+    .editor-container{
+      height: 100%;
+      z-index: 9999;
+      border: 1px solid black;
+      #editor{
+        box-sizing: border-box;
+        width: 100%;
+        height: 95.5%;
+        background-color: rgba($color: #fff, $alpha: .8);
+      }
+    }
+    .preview-container{
+      z-index: 9999;
+    }
+  }
+  
+  #preview{
+    z-index: 9999;
+    color: black;
+    text-align: initial;
+    padding: 20px;
+    background: rgba($color: #fff, $alpha: .8);
+    border: 1px solid black;
+    li{
+      margin-left: 1rem;
+    }
+  }
+}
+
