@@ -2,7 +2,7 @@ This project was created with CRA it took less than 1 hour to pass all the tests
 
 It was completed on 7/27/20 in 1:46:59
 
-Demo can be found at: 
+Demo can be found at: https://howagain.github.io/fcc-markdown-previewer/
 
 ## Resources
 
